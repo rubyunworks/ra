@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>Ra</title>
+  <link rel="SHORTCUT ICON" href="assets/ra.png">
+  <style>
+    body { margin: 0; padding: 0; }
+    pre { margin: 25px 20px 10px 10px; padding: 0; }
+    #main { margin: 0 auto; width: 1080px; }
+    #nav { text-align: right; }
+    #nav a { color: #222; font-size: 0.8em; }
+  </style>
+</head>
+<body>
+<div id="main">
+
+  <div style="width: 500px; float: right;">
+    <img src="assets/ra.png" style="width: 450px; margin: 20px 20px 40px 40px;" /><br />
+    <div id="nav">
+      <a href="docs/api">API</a> &middot;
+      <a href="http://github.com/rubyworks/ra">CODE</a>
+    </div>
+  </div>
+
+  <div>
+    <h1>Ra</h1>
+    <h2>Ruby Applets</h2>
+
+    <p>Run Ruby commands independent of you operating systems execution
+    system.</p>
+
+    <pre>
+      $ gem install ra
+    </pre>
+
+    <p>List all available applets:</p>
+
+    <pre>
+      $ ra help
+    </pre>
+
+    <p>Create a method, add it to a <code>.rb</code> script. For personal use,
+    place the script in <code>$HOME/.config/ra/</code>. Applet ready.</p>
+
+    To distribute you applet, save the script to your project's
+    <code>lib/plugins/ra</code> folder. Distribution complete.</p>
+
+    <br/>
+
+    <p><b>Tip</b>: Don't use <code>Dir.chdir</code>, simply use <code>cd</code>
+    instead.</p>
+  </div>
+
+</div>
+</body>
+</html>

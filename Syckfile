@@ -23,8 +23,8 @@ rdoc:
   include  : [ lib, README.rdoc, LICENSE ]
   main     : ~
   extra    : ~
-  output   : doc
-  active   : false
+  output   : site/docs/api
+  active   : true
 
 ridoc:
   service: RIDoc
