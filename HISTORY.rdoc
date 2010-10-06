@@ -1,0 +1,15 @@
+= RELEASE HISTORY
+
+== 0.1.0 | 2010-10-06
+
+Ra is a spin off the earlier `ratch` project. It came about after some
+consideration of how a reusable "ruby bin" would best be designed. I could
+have used Ratch as is, and simply added a `bin/` equivalent directory within
+Ruby's LOAD_PATH. This would have been a straight analog to the Unix `bin/`
+system. However, after further consideration it became clear that a system
+akin to `boson` (http://) is better suited to Ruby. This way methods would
+both be available on the command line and via Ruby scripts and IRB.
+
+Changes:
+
+* Happy Release Day!

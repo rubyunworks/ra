@@ -1,0 +1,24 @@
+--- 
+title     : Ruby Applets
+suite     : rubyworks
+summary   : Dedicated Ruby Command System
+copyright : Copyright (c) 2010 Thomas Sawyer
+license   : Apache 2.0
+contact   : trans <transfire@gmail.com>
+created   : 2004-08-01
+
+authors:
+  - Thomas Sawyer
+
+description:
+  Ruby Applets creates an isolated namespace for running ruby-based 
+  commands. Think of it as a secondary system `bin/` designed for
+  Ruby developers, but integerated with-in the Ruby language.
+
+resources:
+  home: http://rubyworks.github.com/ra
+  code: http://github.com/rubyworks/ra
+  docs: http://rubyworks.github.com/ra/docs/api
+  mail: http://groups.google.com/group/rubyworks-mailinglist
+  repo: git://github.com/rubyworks/ra.git
+

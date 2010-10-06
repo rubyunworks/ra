@@ -1,0 +1,53 @@
+= Ruby Applets
+
+== DESCRIPTION
+
+Ruby Applets, `Ra` for short, is a Ruby command system. You can think of it as
+an alternate system bin designed specifically to Ruby tools.
+
+Ra is a spin off the earlier Ratch project. It came about after some
+consideration of how a reusable "ruby bin" would best be designed. Ratch could
+have been used Ratch as is by simply adding a `bin/` equivalent directory within
+Ruby's LOAD_PATH. This would have been a straight analog to the Unix `bin/`
+system. However, after further consideration it became clear that a system
+akin to boson{http://boson.org} is better suited to Ruby. This way methods
+would be available on both the command line and via Ruby scripts and IRB without
+any fancy script routing.
+
+
+== FEATURES
+
+* Commands are easily created and distributable via package mangagers.
+* Sophisticated batch scripting DSL is built-in.
+* Integrated help system based on `ronn` produces beautiful help text.
+* Command availablity is context aware.
+
+
+== INSTALL
+
+  $ gem install ra
+
+
+== FAQ
+
+=== Q. Why not just use Boson?
+
+A. Boson is a good system, but two things set Ra apart. 1) It provides an
+underlying "batch scripting" DSL via the `path` gem. This makes writing
+file-oriented tools much easier. 2) It's design is much simpler, giving more
+control over to the developer.
+
+=== Q. Is Ratch still around and useful now that Ra exists.
+
+A. Ratch still exists and in future versions will actually depend on Ra.
+Ratch is still useful for creating oridinaly executables with the advantage
+of the batch scripting DSL provided by Ra --not to mention all the
+plugins other may have added to Ra.
+
+
+== COPYING
+
+(Apache 2.0 License)
+
+Copyright (c) 2010 Thomas Sawyer
+

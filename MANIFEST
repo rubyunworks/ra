@@ -1,0 +1,18 @@
+#!mast -x Syckfile bin lib test [A-Z]*
+bin/ra
+lib/plugins/ra/help.rb
+lib/ra/core_ext/all.rb
+lib/ra/core_ext/facets.rb
+lib/ra/core_ext/filetest.rb
+lib/ra/core_ext/fileutils.rb
+lib/ra/core_ext/multiglob.rb
+lib/ra/core_ext/object/to_yamlfrag.rb
+lib/ra/core_ext/string/to_actual_filename.rb
+lib/ra/core_ext/string/unfold_paragraphs.rb
+lib/ra/core_ext/to_console.rb
+lib/ra/core_ext/to_list.rb
+lib/ra/gemdo.rb
+lib/ra.rb
+HISTORY.rdoc
+LICENSE.txt
+README.rdoc
