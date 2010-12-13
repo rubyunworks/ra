@@ -1,11 +1,14 @@
 --- 
 title     : Ruby Applets
-suite     : rubyworks
 summary   : Dedicated Ruby Command System
-copyright : Copyright (c) 2010 Thomas Sawyer
 license   : Apache 2.0
 contact   : trans <transfire@gmail.com>
-created   : 2004-08-01
+
+requires:
+  - path
+  - plugin
+  - facets
+  - syckle (build)
 
 authors:
   - Thomas Sawyer
@@ -22,3 +25,6 @@ resources:
   mail: http://groups.google.com/group/rubyworks-mailinglist
   repo: git://github.com/rubyworks/ra.git
 
+created      : 2010-08-01
+organization : rubyworks
+copyright    : Copyright (c) 2010 Thomas Sawyer
