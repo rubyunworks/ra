@@ -1,4 +1,5 @@
 --- 
+name      : ra
 title     : Ruby Applets
 summary   : Dedicated Ruby Command System
 license   : Apache 2.0
